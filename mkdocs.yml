@@ -53,16 +53,16 @@ plugins:
   - search:
       lang: en
   - tags
-  - i18n:
-      default_language: en
-      languages:
-        - locale: en
-          name: English
-          default: true   # mark as default
-          build: true     # ensure it gets built
-        - locale: id
-          name: Bahasa Indonesia
-          build: true     # also build this language
+#  - i18n:
+#      default_language: en
+#      languages:
+#        - locale: en
+#          name: English
+#          default: true   # mark as default
+#          build: true     # ensure it gets built
+#        - locale: id
+#          name: Bahasa Indonesia
+#          build: true     # also build this language
 
 
 markdown_extensions:
