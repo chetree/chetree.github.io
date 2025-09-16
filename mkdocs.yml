@@ -3,7 +3,6 @@ site_description: Advanced automation solutions for industry and innovation.
 site_author: Chetree Automation Team
 site_url: https://chetree.github.io
 
-
 nav:
   - Home: index.md
   - Products:
@@ -13,7 +12,6 @@ nav:
   - Blog: blog/index.md
   - About: about.md
   - Contact: contact.md
-
 
 theme:
   name: material
@@ -25,7 +23,7 @@ theme:
     - navigation.sections
     - search.suggest
     - search.highlight
-    - i18n   # enable language switcher
+  #  - i18n   # enable language switcher
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -82,11 +80,11 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/yourrepository
+      link: https://github.com/chetree
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/chetree-automation
     - icon: fontawesome/solid/envelope
-      link: mailto:contact@chetree-automation.example.com
+      link: mailto:chetree.id@gmail.com
   analytics:
     provider: google
     property: UA-XXXXXXXXX-X
