@@ -1,0 +1,95 @@
+site_name: Chetree Automation
+site_description: Advanced automation solutions for industry and innovation.
+site_author: Chetree Automation Team
+site_url: https://chetree.github.io
+
+
+nav:
+  - Home: index.md
+  - Products:
+      - Overview: products/index.md
+      - Automation Systems: products/systems.md
+      - Smart Sensors: products/sensors.md
+  - Blog: blog/index.md
+  - About: about.md
+  - Contact: contact.md
+
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - i18n   # enable language switcher
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: green
+      accent: deep purple
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: asssets/images/logo.png
+  favicon: assets/images/favicon.ico
+  blog: true
+
+plugins:
+  - search:
+      lang: en
+  - tags
+  - i18n:
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true   # mark as default
+          build: true     # ensure it gets built
+        - locale: id
+          name: Bahasa Indonesia
+          build: true     # also build this language
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/yourrepository
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/chetree-automation
+    - icon: fontawesome/solid/envelope
+      link: mailto:contact@chetree-automation.example.com
+  analytics:
+    provider: google
+    property: UA-XXXXXXXXX-X
+
+copyright: Copyright © 2024-2025 Chetree Automation. All rights reserved.
